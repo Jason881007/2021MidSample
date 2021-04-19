@@ -20,6 +20,8 @@
                 <asp:CheckBox ID="CheckBox2" runat="server" Font-Size="X-Large" Text="打電動" />
                 <asp:CheckBox ID="CheckBox3" runat="server" Font-Size="X-Large" Text="其他" /><br />
                 <asp:Label ID="Label3" runat="server" Text="其他連結" Font-Size="X-Large"></asp:Label>
+                <asp:HyperLink ID="HyperLink1" runat="server" ImageHeight="30px" ImageUrl="aws-brands.svg" ImageWidth="30px" NavigateUrl="https://aws.amazon.com/tw/"></asp:HyperLink><br />
+                <asp:Button ID="Button1" runat="server" Text="送出" Height="30px" PostBackUrl="~/Sample1Com.aspx" Width="80px" />
             </div>
         </div>
     </form>
